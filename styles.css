@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .sign-up, header .log-in {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 20px;
+    color: #333;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+header .sign-up {
+    left: 20px;
+}
+
+header .log-in {
+    right: 20px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.stat h2 {
+    font-size: 20px;
+    color: #ff5733;
+}
+
+.services, .best-doctors, .steps, .testimonials, footer {
+    background: #fff;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-grid, .doctor-grid, .step-grid, .testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service, .doctor, .step, .testimonial {
+    flex: 1 1 30%;
+    margin: 10px;
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .submit {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
