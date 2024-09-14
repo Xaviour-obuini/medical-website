@@ -38,7 +38,7 @@ header {
 }
 .container nav ul{
     text-decoration: none;
-    text-align: inline-block;
+    text-align: flex;
 }
 .container nav ul li{
     list-style: none;
