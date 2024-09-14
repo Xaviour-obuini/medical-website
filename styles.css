@@ -20,15 +20,28 @@ body {
 header {
     background-color: aliceblue;
     color: #fff;
-    padding: 10px 0;
+    padding:0 10px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
 }
 .container{
     display: flex;
 }
-
+.nav-logo{
+    display: flex;
+}
+.container nav{
+    display: flex;
+}
+.container nav ul{
+    text-decoration: none;
+}
+.container nav ul li{
+    list-style: none;
+}
 header h1 {
     font-size: 24px;
 }
