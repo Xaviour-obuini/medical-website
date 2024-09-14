@@ -38,6 +38,7 @@ header {
 }
 .container nav ul{
     text-decoration: none;
+    text-align: inline-block;
 }
 .container nav ul li{
     list-style: none;
