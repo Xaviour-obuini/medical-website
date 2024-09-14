@@ -18,11 +18,15 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: aliceblue;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     position: relative;
+    width: 100%;
+}
+.container{
+    display: flex;
 }
 
 header h1 {
